@@ -25,4 +25,4 @@ jobs:
           pip install fastapi 'uvicorn[standard]' pydantic loguru pytest
 
       - name: Run tests
-        run: pytest backend/tests
+        run: pytest 
